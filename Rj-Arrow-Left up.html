@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-canvas</title>
+</head>
+<body>
+
+    <canvas id="canvas" style="margin: 10rem; width: 610px; height: 400px;"></canvas>
+    
+</body>
+<script>
+    const canvas = document.getElementById('canvas');
+    const context = canvas.getContext('2d');
+
+context.beginPath();
+context.moveTo(158,61);
+context.lineTo(117,87);
+context.lineTo(156,120);
+context.lineTo(156,104);
+context.lineTo(247,104);
+context.lineTo(247,51);
+context.lineTo(268,51);
+context.lineTo(230,25);
+
+context.stroke();
+
+</script>
+</html>
